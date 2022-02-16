@@ -17,13 +17,13 @@
 
     }
   </style>
-  <title>Hello, world!</title>
+  <title>Hollow Knight  </title>
 </head>
 
 <body>
   <!--nav-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Hello , Player</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -34,19 +34,17 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-expanded="false">
-            Dropdown
+            Menu
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Sobre o jogo</a>
+            <a class="dropdown-item" href="#">Baixar </a>
+            <a class="dropdown-item" href="#">Versão</a>  
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Lançamentos</a> ''
           </div>
         </li>
         <li class="nav-item">
@@ -94,8 +92,8 @@
   <!--jumbotron-->
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Fluid jumbotron</h1>
-      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <h1 class="display-4"> Personagens </h1>
+      <p class="lead">Chefes , personagens principais e golpes.</p>
     </div>
   </div>
 
@@ -105,11 +103,10 @@
   <div class="container">
     <div class="card-columns">
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://cdn.dribbble.com/users/114039/screenshots/3406186/hollowknight_dribbble.gif" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title that wraps to a new line</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
+          <h5 class="card-title">O Cavaleiro</h5>
+          <p class="card-text">O Cavaleiro é um Receptáculo nascido dos seres superiores: Rei Pálido e Dama Branca, com Vazio dentro de sua carapaça. Receptáculos são apresentados como descendentes e prole do Rei e da Rainha de Hallownest; começando suas vidas em ovos que são encontrados em uma área do Abismo conhecida como Local de Nascimento.</p>
         </div>
       </div>
       <div class="card p-3">
@@ -123,10 +120,13 @@
         </blockquote>
       </div>
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://static.wikia.nocookie.net/hollowknight/images/9/98/B_False_Knight.png/revision/latest/scale-to-width-down/350?cb=20210610021213&path-prefix=pt" 
+        class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <h5 class="card-title">Falso Cavaleiro</h5>
+          <p class="card-text">Falso Cavaleiro é um dos chefes principais em Hollow Knight. 
+            Ele mantém o Brasão da Cidade necessário para abrir os portões da Cidade das Lágrimas.
+             O Campeão Fracassado é sua forma do Mundo dos Sonhos mais rápida e mais forte.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
@@ -142,10 +142,13 @@
       </div>
       <div class="card text-center">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Orbes de vida</h5>
+          
           <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
+        
+        
       </div>
       <div class="card">
         <img src="..." class="card-img" alt="...">
@@ -169,6 +172,8 @@
         </div>
       </div>
     </div>
+
+    
 
 
 
@@ -202,7 +207,6 @@
       </div>
 
 
-
     </div>
 
     <!--Rodapé-->
@@ -213,7 +217,7 @@
         <div class="col-md-12 d-flex justify-content-center ">
           <a href="https://www.facebook.com/ " target="_balck"class= "p-3">
             <img class="tm-social " src="assets/img/facebook.png" alt="Logo Facebook">
- 
+            
             
     
           </a>
@@ -262,7 +266,8 @@
         <form>
           <div class="form-group">
             <label for="exampleFormControlInput1">Endereço de email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" onkeyup = 'validaEmail()'>
+          <div id='txtEmail'></div>
           </div>
          
           <div class="form-group">
@@ -285,8 +290,9 @@
 
     <!--Rodapé-->
 
-  </div>
 
+
+  
   
 
 
@@ -297,6 +303,10 @@
 
 
   <!--Colunas de cards-->
+
+  <div>
+
+  </div>
 
 
 
